@@ -1,15 +1,103 @@
 ﻿@page
+@using MovieSongSearch.Pages
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #C6011F;
+            font-family: 'Manrope', sans-serif;
+            color: #f8f8ff;
+        }
 
-<div class="text-center">
-    <a href="/Song">Search Songs !!</a>
-    <a href="/Movie">Search Movies !!</a>
-</div>
+       
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <div class="text-center">
+        <h2>Diagonized with Boredom?</h2><br />
+        <h4>
+            bore·​dom ˈbȯr-dəm:
+        </h4>
+        <h4>
+            the state of being weary and restless through lack of interest
+            leading to checking the refrigerator 14000 times every hour.
+        </h4><br />
+        <h3>Thus, we bring to you...</h3>
+        <h4>**drumroll...**</h4>
+        <br />
+        <h1 class="display-4" style="font-size:70px"><strong>Movies 'n' Music  Encyclopedia!!</strong></h1>
+        @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+        <h4>Find your new favourite passtime from our myriad of data!</h4><br />
+        <h4><strong>Click on the links in the Navbar!</strong></h4><br />
+
+
+        <div class="container" style="background-color:#fff8e7; border-radius: 15px;">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center> <img src="~/meme_XML.jpg" alt="Wine image" height="600" /></center>
+                        <div class="carousel-caption d-none d-md-block">
+                           
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+                        <center><img src="~/meme_XML2.jpg" alt="Wine image 2" height="600" /></center>
+                        <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+                        <center> <img src="~/meme_XML3.jpg" alt="Wine image 3" height="600" /></center>
+                        <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> <br /><br /><br /><br />
+
+    </div>
+
+</body>
