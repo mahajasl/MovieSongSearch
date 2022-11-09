@@ -12,6 +12,10 @@ namespace MovieSongSearch.Pages
         public bool SearchCompleted { get; set; }
         public string Query { get; set; }
         public Movie movies;
+        public void Configure(IApplicationBuilder app)
+        {
+            app.UseStaticFiles();
+        }
         public MovieModel(ILogger<MovieModel> logger)
         {
             _logger = logger;
