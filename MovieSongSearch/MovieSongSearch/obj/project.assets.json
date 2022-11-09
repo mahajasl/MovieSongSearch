@@ -52,24 +52,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\parziacl\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\krish\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
+      "projectUniqueName": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
       "projectName": "MovieSongSearch",
-      "projectPath": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
-      "packagesPath": "C:\\Users\\parziacl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\obj\\",
+      "projectPath": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
+      "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\parziacl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
