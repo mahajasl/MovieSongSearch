@@ -11,6 +11,9 @@ This is our repository where we are committing a project which basically searche
 ![Company Logo](https://github.com/mahajasl/MovieSongSearch/blob/main/CompanyLogo.PNG)
 
 ## **StoryBoard**
+![Home Page](https://github.com/mahajasl/MovieSongSearch/blob/main/HomePage.PNG)
+![Movie Search](https://github.com/mahajasl/MovieSongSearch/blob/main/MovieSearch.PNG)
+![Song Search](https://github.com/mahajasl/MovieSongSearch/blob/main/SongSearch.PNG)
 
 
 ## **Project Plan**
