@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4a+O+oM0cHDMlMIQL5EKPYm0Pr8Q9mJZL9oTSaieq5Q=",
+  "Hash": "ezAgTPwGmOEC3ws5ibaAH2QNUm8ndMefDLOr4uvihds=",
   "Source": "MovieSongSearch",
   "BasePath": "_content/MovieSongSearch",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\Images\\CompanyLogo.PNG",
+      "SourceId": "MovieSongSearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\",
+      "BasePath": "_content/MovieSongSearch",
+      "RelativePath": "Images/CompanyLogo.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\CompanyLogo.PNG"
     },
     {
       "Identity": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\js\\site.js",
