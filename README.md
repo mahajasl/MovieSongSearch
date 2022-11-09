@@ -24,7 +24,7 @@ This is our repository where we are committing a project which basically searche
 
 
 ## **Team Composition**
-- Christina Schwierling- integration developer
+- Christina Schwierling- frontend developer
 - Apruva Sriwastwa- integration developer
 - Snehal Mahajan- Project Owner, integration developer
 - Priyanka Nainani- fontend developer
