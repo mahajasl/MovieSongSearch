@@ -8,7 +8,7 @@ This is our repository where we are committing a project which basically searche
 
 
 ## **Logo**
-![Company Logo](/XMLClassProject.png)
+![Company Logo](/Movie & Music Logo.png)
 ## **StoryBoard**
 ![Home Page](https://github.com/mahajasl/XMLProject/blob/main/Slide1.PNG)
 
