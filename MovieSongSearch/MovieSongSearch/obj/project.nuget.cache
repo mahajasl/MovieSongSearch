@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6OryFnaiLYu4lqLRnDbYUALpW1pnbZULuApJ2tAUupjDjCGqrHGXPmzRD8oKl3UUiPCX4+J6D0Vo0WXB6Zr4OQ==",
+  "dgSpecHash": "BIBgvoGTHxSVHnYmQWQjfU5KlMdpXKlPXx21vBEdjwmRYAI919johUMicDgb58i9acGQANtUi6TBuLX21w9phQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
+  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\krish\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
