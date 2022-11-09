@@ -4,12 +4,19 @@
 @{
     int counter = 0;
 }
-<div class="text-center">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
+</head>
 
+<img src="Images/CompanyLogo" alt=" Black and white movie clapper with a black quarter note floating in the bottom section of the clapper"/>
+
+<div class="text-center">
     <div class="row">
         <div class="col">
             <form action="" method="get" class="form-inline">
-                <input asp-for="Query" name="query" id="query" class="form-control mr-sm-2 mb-2" placeholder="search for movies" />
+                <input asp-for="Query" name="query" id="query" class="form-control mr-sm-2 mb-2" placeholder="Movie Title" />
                 <button type="submit" class="btn btn-primary mb-2">Search</button>
 
             </form>
