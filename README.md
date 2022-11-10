@@ -3,8 +3,8 @@
 ---
 
 ## **Introduction**
-The purpose of this application is to provide users with various options to keep them away from boredom, we provide them with functionality to be able to search for movies and music.
-They will be able to search for any movie title and read it's brief description with which they can decide to watch a movie or not. We also provide users with the option to search for soundtracks in the movies they watched and they can also search for various songs and artists. 
+The purpose of this application is to provide users with various options to keep them away from boredom. We enable users to search for movies and music.
+They will be able to search for any movie title and read it's brief description based on which they can decide to watch the movie or search for alternatives. We also provide users with the option to search for soundtracks in the movies they watched. Additionally,they can search for various songs and artists. 
 
 Some of the new features we are planning for the next iterations are to collect user inputs and provide them with recommendations which will keep them entertained at all times.
 
