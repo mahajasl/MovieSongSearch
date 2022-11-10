@@ -47,7 +47,7 @@ Some of the new features we are planning for the next iterations are to collect 
 
 **Then** I should get a list of soundtracks from the movie.
 
-#### 3) **Music Search using artist's name.
+#### 3) **Music Search using artist's name.**
 
 **Given** I type the name of the artist in the search bar.
 
