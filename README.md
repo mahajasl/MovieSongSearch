@@ -12,9 +12,9 @@ Some of the new features we are planning for the next iterations are to collect 
 ![Company Logo](https://github.com/mahajasl/MovieSongSearch/blob/main/CompanyLogo.PNG)
 
 ## **StoryBoard**
-![Home Page](https://github.com/mahajasl/MovieSongSearch/blob/main/mss3.PNG)
-![Movie Search](https://github.com/mahajasl/MovieSongSearch/blob/main/mss2.PNG)
-![Song Search](https://github.com/mahajasl/MovieSongSearch/blob/main/mss1.PNG)
+![Home Page](https://github.com/mahajasl/MovieSongSearch/blob/main/MovieSongSearch/MovieSongSearch/wwwroot/mss3.png)
+![Movie Search](https://github.com/mahajasl/MovieSongSearch/blob/main/MovieSongSearch/MovieSongSearch/wwwroot/mss2.png)
+![Song Search](https://github.com/mahajasl/MovieSongSearch/blob/main/MovieSongSearch/MovieSongSearch/wwwroot/mss1.png)
 
 ## **Project Plan**
 
