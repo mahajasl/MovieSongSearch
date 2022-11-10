@@ -35,21 +35,32 @@ Some of the new features we are planning for the next iterations are to collect 
 
 ## **Examples**
 
-1) **Movie Search**
+#### 1) **Movie Search**
+
 **Given** I type the name of a movie in the search bar.
+
 **Then** I should get a list of movies containing the typed keywords along with the date of release and description.
-2)**Music Search using movie title**
+
+#### 2)**Music Search using movie title**
+
 **Given** I type the title of the movie in the search bar.
+
 **Then** I should get a list of soundtracks from the movie.
-3) **Music Search using artist's name.
+
+#### 3) **Music Search using artist's name.
+
 **Given** I type the name of the artist in the search bar.
+
 **Then** I get a list of soundtracks composed by the artist.
+
 ---
 **2)User added music/movie interests( this is the feature we will add in our database to collect customer information. It's not called from any API's)**
 **Scenario**
 -As a user interested in receiving movie and music reccomendations of my favorite artists, I want to be able to enter information regarding my interests so that I can get a customized experience.
+
 **Dependancies**
 -We will gather user-entered information and provide the best reccomendations possible.
+
 **Assumptions**
 -Reccomendations will be provided in various genres.
 -Reccomendations will be provided for various artists who are similiar.
