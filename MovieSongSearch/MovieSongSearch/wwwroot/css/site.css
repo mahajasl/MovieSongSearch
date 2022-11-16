@@ -14,5 +14,12 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #C6011F;
+    font-family: 'Manrope', sans-serif;
+    color: #f8f8ff;
+}
+
+footer {
+    background-color: #F7F7F7;
 }

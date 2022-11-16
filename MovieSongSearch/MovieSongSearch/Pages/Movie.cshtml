@@ -9,10 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
     <style>
-        body {
-            background-color: #C6011F;
-            color: #F8F8FF;
-        }
 
         a {
             color: #F8F8FF;
@@ -23,14 +19,14 @@
                 color: black;
             }
 
-        footer {
-            background-color: #F7F7F7;
-        }
-
         .form-control {
             text-align: center;
             align-items: center;
             margin: 20px;
+            padding: 20px;
+        }
+
+        h3 {
             padding: 20px;
         }
 
@@ -52,7 +48,7 @@
         <div class="col">
             <h3> Find details of your favourite movies here!</h3>
             <form action="" method="get" class="form-inline">
-                <input asp-for="Query" name="query" id="query" class="form-control mr-sm-2 mb-2" placeholder="Search for Movie Title" />
+                <input asp-for="Query" name="query" id="query" class="form-control mr-sm-2 mb-2" placeholder="Enter Movie Title" />
                 <button type="submit" class="btn btn-primary mb-2">Search</button>
             </form>
         </div>
@@ -62,16 +58,16 @@
     <div class="container marketing">
         @if (Model.SearchCompleted)
         {
-            @foreach (Result r in Model.movies.Results)
+            @foreach (Result movie in Model.movies.Results)
             {
 
                 <hr class="featurette-divider">
 
                 <div class="row featurette">
                     <div>
-                        <h4>@r.Title</h4>
-                        <p class="lead">@r.ReleaseDate</p>
-                        <p class="lead">@r.Overview</p>
+                        <h4>@movie.Title</h4>
+                        <p class="lead">@movie.ReleaseDate</p>
+                        <p class="lead">@movie.Overview</p>
 
                     </div>
                 </div>
