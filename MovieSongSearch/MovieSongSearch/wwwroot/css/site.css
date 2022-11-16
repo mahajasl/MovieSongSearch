@@ -16,3 +16,8 @@ html {
 body {
     margin-bottom: 60px;
 }
+._containerFooter {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+}

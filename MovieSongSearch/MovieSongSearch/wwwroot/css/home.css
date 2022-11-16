@@ -6,7 +6,11 @@
 .text-center h1 {
     font-size: 70px;
 }
+.text-center h2, .text-center h4 {
+    margin-bottom: 20px;
+}
 ._container {
     background-color: #fff8e7;
     border-radius: 15px;
+    margin-bottom: 100px;
 }
