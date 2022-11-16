@@ -3,6 +3,9 @@
     font-family: 'Manrope', sans-serif;
     color: #f8f8ff;
 }
+.text-center{
+    color: #fff;
+}
 .text-center h1 {
     font-size: 70px;
 }

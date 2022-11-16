@@ -27,3 +27,6 @@ form {
     margin: 0 auto;
     padding-left: 10rem;
 }
+.imglogo img {
+    width: 4%;
+}
