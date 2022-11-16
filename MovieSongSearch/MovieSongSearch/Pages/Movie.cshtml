@@ -50,14 +50,15 @@
 <div class="text-center">
     <div class="row">
         <div class="col">
-            <h3> MovieSongSearch Presents Movie Search</h3>
+            <h3> Find details of your favourite movies here!</h3>
             <form action="" method="get" class="form-inline">
-                <input asp-for="Query" name="query" id="query" class="form-control mr-sm-2 mb-2" placeholder="Movie Title" />
+                <input asp-for="Query" name="query" id="query" class="form-control mr-sm-2 mb-2" placeholder="Search for Movie Title" />
                 <button type="submit" class="btn btn-primary mb-2">Search</button>
-
             </form>
         </div>
     </div>
+
+
     <div class="container marketing">
         @if (Model.SearchCompleted)
         {
