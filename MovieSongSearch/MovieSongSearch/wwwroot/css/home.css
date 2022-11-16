@@ -1,0 +1,12 @@
+﻿body {
+    background-color: #C6011F !important;
+    font-family: 'Manrope', sans-serif;
+    color: #f8f8ff;
+}
+.text-center h1 {
+    font-size: 70px;
+}
+._container {
+    background-color: #fff8e7;
+    border-radius: 15px;
+}
