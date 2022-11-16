@@ -21,19 +21,25 @@ namespace MovieSongSearch.Pages
             Query = query;
             if (!string.IsNullOrEmpty(query))
             {
-                SearchCompleted = true;
-                String s1 = "https://itunes.apple.com/search?term=";
-                String f = s1 + query + "&resultCount=5";
-                var task = client.GetAsync(f);
-                HttpResponseMessage response = task.Result;
-                if (response.IsSuccessStatusCode)
+                try
                 {
-                    Task<string> readString = response.Content.ReadAsStringAsync();
+                    SearchCompleted = true;
+                    var getSongResponse = client.GetAsync("https://itunes.apple.com/search?term=" + query + "&resultCount=5");
+                    HttpResponseMessage response = getSongResponse.Result;
+                    if (response.IsSuccessStatusCode)
+                    {
+                        Task<string> readString = response.Content.ReadAsStringAsync();
 
-                    string jsonString = readString.Result;
+                        string songResult = readString.Result;
 
-                    songs = Song.FromJson(jsonString);
+                        songs = Song.FromJson(songResult);
+                    }
+                } catch(Exception ex)
+                {
+                    Console.WriteLine("\nException Caught!");
+                    Console.WriteLine("Message :{0} ", ex.Message);
                 }
+                
 
             }
             else
