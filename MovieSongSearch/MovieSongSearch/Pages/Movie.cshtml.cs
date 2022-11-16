@@ -24,17 +24,27 @@ namespace MovieSongSearch.Pages
         {
 
             Query = query;
-            
+
             if (!string.IsNullOrEmpty(query))
             {
                 SearchCompleted = true;
-                String s1 = "https://api.themoviedb.org/3/search/movie?api_key=ca0f17e030221db0ccc79d1241d7d943&language=en-US&query=";
+                HttpRequestMessage request = new HttpRequestMessage();
 
-                String f = s1 + query + "&page=1&include_adult=false";
-                
-                var task = client.GetAsync(f);
+                var config = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
 
-                HttpResponseMessage response = task.Result;
+                string movieApi = config["apikey"];
+
+                request.RequestUri = new Uri("https://api.themoviedb.org/3/search/movie?api_key="+ movieApi +"&language=en-US&query=" + query+ "&page=1&include_adult=false");
+                /*
+                String s1 = https://api.themoviedb.org/3/search/movie?api_key=ca0f17e030221db0ccc79d1241d7d943&language=en-US&query=
+
+                #String f = s1 + query + "&page=1&include_adult=false";
+                */
+                request.Method = HttpMethod.Get;
+
+              
+
+                HttpResponseMessage response = await client.SendAsync(request);
 
                if (response.IsSuccessStatusCode)
                 {

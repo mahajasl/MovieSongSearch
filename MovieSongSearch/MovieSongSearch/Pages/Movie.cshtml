@@ -30,25 +30,29 @@
     <div class="container marketing">
         @if (Model.SearchCompleted)
         {
-            @foreach (Result r in Model.movies.Results)
+            if (Model.movies.Results != null)
             {
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div>
-                        <h4>@r.Title</h4>
-                        <p class="lead">@r.ReleaseDate</p>
-                        <p class="lead">@r.Overview</p>
-
-                    </div>
-                </div>
-                counter++;
-                if (counter == 5)
+                @foreach (Result r in Model.movies.Results)
                 {
-                    break;
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div>
+                            <h4>@r.Title</h4>
+                            <p class="lead">@r.ReleaseDate</p>
+                            <p class="lead">@r.Overview</p>
+
+                        </div>
+                    </div>
+                    counter++;
+                    if (counter == 5)
+                    {
+                        break;
+                    }
                 }
             }
+
 
         }
     </div>
