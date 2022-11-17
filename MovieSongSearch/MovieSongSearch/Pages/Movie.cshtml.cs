@@ -51,9 +51,9 @@ namespace MovieSongSearch.Pages
 
                     Task<string> readString = response.Content.ReadAsStringAsync();
 
-                    string jsonString = readString.Result;
+                    string getMovieDetails = readString.Result;
 
-                    movies = Movie.FromJson(jsonString);
+                    movies = Movie.FromJson(getMovieDetails);
 
                 }
             }
