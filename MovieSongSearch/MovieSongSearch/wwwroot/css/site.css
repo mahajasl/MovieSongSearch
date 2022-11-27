@@ -1,18 +1,42 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    background-color: #C6011F;
+    color: #f8f8ff;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #F7F7F7;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#companylogo {
+    text-align: left;
+}
+
+#footerformat {
+    background-color: #f8f8ff;
+}  
+
+#titleforpage {
+    font-size: 70px;
+    font-weight: bold;
 }
