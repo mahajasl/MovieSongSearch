@@ -7,9 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\music1.jpg" />
-    <None Include="wwwroot\music2.jpg" />
-    <None Include="wwwroot\music3.jpg" />
+    <Content Remove="wwwroot\CompanyLogo.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\CompanyLogo.PNG" />
   </ItemGroup>
 
   <ItemGroup>
