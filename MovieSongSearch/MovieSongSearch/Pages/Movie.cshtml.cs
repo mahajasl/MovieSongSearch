@@ -28,24 +28,27 @@ namespace MovieSongSearch.Pages
             if (!string.IsNullOrEmpty(query))
             {
                 SearchCompleted = true;
-                String s1 = "https://api.themoviedb.org/3/search/movie?api_key=ca0f17e030221db0ccc79d1241d7d943&language=en-US&query=";
+                try {
+                    var getMovieResponse = client.GetAsync("https://api.themoviedb.org/3/search/movie?api_key=ca0f17e030221db0ccc79d1241d7d943&language=en-US&query=" + query + "&page=1&include_adult=false");
+                    HttpResponseMessage response = getMovieResponse.Result;
 
-                String f = s1 + query + "&page=1&include_adult=false";
-                
-                var task = client.GetAsync(f);
+                    if (response.IsSuccessStatusCode)
+                    {
 
-                HttpResponseMessage response = task.Result;
+                        Task<string> readString = response.Content.ReadAsStringAsync();
 
-               if (response.IsSuccessStatusCode)
+                        string movieResult = readString.Result;
+
+                        movies = Movie.FromJson(movieResult);
+
+                    }
+
+                } catch(Exception ex)
                 {
-
-                    Task<string> readString = response.Content.ReadAsStringAsync();
-
-                    string jsonString = readString.Result;
-
-                    movies = Movie.FromJson(jsonString);
-
+                    Console.WriteLine("\nException Caught!");
+                    Console.WriteLine("Message :{0} ", ex.Message);
                 }
+                
             }
             else
             {
