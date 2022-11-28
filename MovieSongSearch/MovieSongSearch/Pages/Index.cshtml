@@ -6,22 +6,16 @@
 }
 
 <head>
+   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
-    <style>
-        body {
-            background-color: #C6011F;
-            font-family: 'Manrope', sans-serif;
-            color: #f8f8ff;
-        }
-
-       
-    </style>
-
+    <link rel="stylesheet" href="~/css/site.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="~/css/mobile.css" type="text/css" media="screen and (max-device-width: 480px)" />
 
 </head>
 
@@ -29,11 +23,16 @@
 
 
     <div class="text-center">
-        <h2>Diagonized with Boredom?</h2><br />
+       
         <h4>
+            <div>
+                <div id="excludemobile">
+                    <h2 class="notformobile">Diagnosed with Boredom?</h2><br />
+                    <h4 class="notformobile">
             bore·​dom ˈbȯr-dəm:
         </h4>
         <h4>
+         <h4 class="notformobile">
             the state of being weary and restless through lack of interest
             leading to checking the refrigerator 14000 times every hour.
         </h4><br />
@@ -42,11 +41,11 @@
         <br />
         <h1 class="display-4" style="font-size:70px"><strong>Movies 'n' Music  Encyclopedia!!</strong></h1>
         @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
-        <h4>Find your new favourite passtime from our myriad of data!</h4><br />
+        <h4>Find your new favourite pastime from our myriad of data!</h4><br />
         <h4><strong>Click on the links in the Navbar!</strong></h4><br />
 
 
-        <div class="container" style="background-color:#fff8e7; border-radius: 15px;">
+                        <div id="carouselContainer" class="container">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -59,7 +58,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <center> <img src="~/meme_XML.jpg" alt="Wine image" height="600" /></center>
+              <center> <img src="~/meme_XML.jpg" alt="Red background.  Text reads: Yes, I'm still watching stop juding me Netfilx" height="600" /></center>
                         <div class="carousel-caption d-none d-md-block">
                            
                         </div>
@@ -67,7 +66,7 @@
 
 
                     <div class="item">
-                        <center><img src="~/meme_XML2.jpg" alt="Wine image 2" height="600" /></center>
+              <center><img src="~/meme_XML2.jpg" alt="Image of Dr. Strange with fire behind him to the left and a highrise behind him to the right. Text reads: An apple a day keeps the doctor away, but if the doctor is cute, screw the fruit." height="600" /></center>
                         <div class="carousel-caption d-none d-md-block">
                             
                         </div>
