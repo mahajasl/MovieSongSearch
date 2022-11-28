@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ubPPXcen+zrKenOOu9a3LGx1WQDSR0wmFjrB0kkKyOg=",
+  "Hash": "YDPXdGYeltF86Pqmvhwpz0KWk73y3YfDsTbpG0UeyuQ=",
   "Source": "MovieSongSearch",
   "BasePath": "_content/MovieSongSearch",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MovieSongSearch.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\css\\mobile.css",
+      "SourceId": "MovieSongSearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\",
+      "BasePath": "_content/MovieSongSearch",
+      "RelativePath": "css/mobile.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\mobile.css"
+    },
+    {
+      "Identity": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\css\\print.css",
+      "SourceId": "MovieSongSearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\",
+      "BasePath": "_content/MovieSongSearch",
+      "RelativePath": "css/print.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\print.css"
     },
     {
       "Identity": "C:\\Users\\parziacl\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\css\\site.css",
