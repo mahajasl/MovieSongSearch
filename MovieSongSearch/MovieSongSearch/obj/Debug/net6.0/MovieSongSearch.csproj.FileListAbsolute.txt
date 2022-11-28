@@ -111,3 +111,6 @@ C:\Users\parziacl\Source\Repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\o
 C:\Users\parziacl\Source\Repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\obj\Debug\net6.0\MovieSongSearch.genruntimeconfig.cache
 C:\Users\parziacl\Source\Repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\obj\Debug\net6.0\ref\MovieSongSearch.dll
 C:\Users\user\Source\Repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\parziacl\Source\Repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\krish\Source\Repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\psneh\Source\Repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

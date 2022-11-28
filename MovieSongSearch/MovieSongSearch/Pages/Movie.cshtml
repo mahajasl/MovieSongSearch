@@ -5,16 +5,25 @@
     int counter = 0;
 }
 <head>
+    <link rel="stylesheet" href="~/css/Movie.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="~/css/mobile.css" type="text/css" media="screen and (max-device-width: 480px)" />
 </head>
 
-<img src="Images/CompanyLogo" alt=" Black and white movie clapper with a black quarter note floating in the bottom section of the clapper"/>
+<div>
+    <img src="~/CompanyLogo.PNG" alt=" Black and white movie clapper with a quarter note floating in the bottom section of the clapper" />
+
+</div>
+
 
 <div class="text-center">
     <div class="row">
         <div class="col">
+            <h3> MovieSongSearch Presents Movie Search</h3>
             <form action="" method="get" class="form-inline">
                 <input asp-for="Query" name="query" id="query" class="form-control mr-sm-2 mb-2" placeholder="Movie Title" />
                 <button type="submit" class="btn btn-primary mb-2">Search</button>
@@ -48,3 +57,30 @@
         }
     </div>
 </div>
+<style>
+    body {
+        background-color: #C6011F;
+        color: #F8F8FF;
+    }
+    a {
+        color: #F8F8FF;
+        text-decoration: none;
+    }
+    a:hover {
+        color: black;
+    }
+    footer {
+        background-color: #F7F7F7;
+    }
+    .form-control {
+        text-align: center;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    form {
+        margin: 0 auto;
+        padding-left: 10rem;
+    }
+</style>
