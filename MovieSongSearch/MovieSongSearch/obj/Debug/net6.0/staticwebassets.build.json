@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rU7AkTC8dl4tJ1LH9ulcI470sUIh97Pjo05vXU2gqpI=",
+  "Hash": "/wu8Qo7Gc4oLGBRyxHGHTT4Gm2VYSLqYadz9o1ds8F4=",
   "Source": "MovieSongSearch",
   "BasePath": "_content/MovieSongSearch",
   "Mode": "Default",
@@ -1122,12 +1122,12 @@
       "OriginalItemSpec": "wwwroot\\meme_XML3.jpg"
     },
     {
-      "Identity": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\music1.jpg",
+      "Identity": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\mss1.png",
       "SourceId": "MovieSongSearch",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\",
       "BasePath": "_content/MovieSongSearch",
-      "RelativePath": "music1.jpg",
+      "RelativePath": "mss1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,15 +1136,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\music1.jpg"
+      "OriginalItemSpec": "wwwroot\\mss1.png"
     },
     {
-      "Identity": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\music2.jpg",
+      "Identity": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\mss2.png",
       "SourceId": "MovieSongSearch",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\",
       "BasePath": "_content/MovieSongSearch",
-      "RelativePath": "music2.jpg",
+      "RelativePath": "mss2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1153,15 +1153,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\music2.jpg"
+      "OriginalItemSpec": "wwwroot\\mss2.png"
     },
     {
-      "Identity": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\music3.jpg",
+      "Identity": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\mss3.png",
       "SourceId": "MovieSongSearch",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\",
       "BasePath": "_content/MovieSongSearch",
-      "RelativePath": "music3.jpg",
+      "RelativePath": "mss3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1170,7 +1170,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\music3.jpg"
+      "OriginalItemSpec": "wwwroot\\mss3.png"
     }
   ]
 }
