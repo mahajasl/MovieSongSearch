@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OIDp41XYLgMJSmuSLe1HMzOTen5/R9eLKKOHc7XXkrw=",
+  "Hash": "u0JMp+zOdwJ5+me6bkCtAMlkSBo2AQzK5dVXBhv1kHk=",
   "Source": "MovieSongSearch",
   "BasePath": "_content/MovieSongSearch",
   "Mode": "Default",
@@ -51,6 +51,40 @@
       "OriginalItemSpec": "C:\\Users\\psneh\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MovieSongSearch.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\psneh\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\css\\home.css",
+      "SourceId": "MovieSongSearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\psneh\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\",
+      "BasePath": "_content/MovieSongSearch",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\Users\\psneh\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\css\\Movie.css",
+      "SourceId": "MovieSongSearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\psneh\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\",
+      "BasePath": "_content/MovieSongSearch",
+      "RelativePath": "css/Movie.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Movie.css"
+    },
+    {
       "Identity": "C:\\Users\\psneh\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\css\\site.css",
       "SourceId": "MovieSongSearch",
       "SourceType": "Discovered",
@@ -66,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\psneh\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\css\\Song.css",
+      "SourceId": "MovieSongSearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\psneh\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\",
+      "BasePath": "_content/MovieSongSearch",
+      "RelativePath": "css/Song.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Song.css"
     },
     {
       "Identity": "C:\\Users\\psneh\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\wwwroot\\favicon.ico",
