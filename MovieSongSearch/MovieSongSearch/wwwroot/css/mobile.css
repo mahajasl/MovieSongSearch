@@ -40,18 +40,6 @@ footer {
     font-weight: bold;
 }
 
-h2.notformobile {
+.notformobile {
     display: none;
-}
-
-h3.notformobile {
-    display: none;
-}
-
-h4.notformobile {
-    display: none;
-}
-#excludemobile {
-    
-    display:none;
 }
