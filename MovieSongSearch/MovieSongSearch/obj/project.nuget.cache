@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xt2HQebEj1o61EKdlJwIM3F8HEAQk7QA+1M8K26/3cjGVw6v4o61e3JNXBuoWYcRyF+Y5FqpncBztEFpWeMSAg==",
+  "dgSpecHash": "SkJNnyLHuDItaz7sownfusg0glK6qCcHKmOxta46KU2WVp7sij3z17GYx5I1z3+mOQqjlvwPXImhnK862JALbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\psneh\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
+  "projectFilePath": "C:\\Users\\psneh\\source\\repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\psneh\\.nuget\\packages\\bootstrap\\5.2.2\\bootstrap.5.2.2.nupkg.sha512",
     "C:\\Users\\psneh\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",

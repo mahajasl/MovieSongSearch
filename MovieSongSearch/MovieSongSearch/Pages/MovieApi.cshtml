@@ -1,0 +1,34 @@
+﻿@page
+@model MovieSongSearch.Pages.MovieApiModel
+@using MovieExternalApi;
+@{
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Movie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="~/css/mobile.css" type="text/css" media="screen and (max-device-width: 480px)" />
+</head>
+
+
+<div class="text-center">
+@foreach (Item item in Model.moviesApi.Items)
+{
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div>
+            <h4>@item.Title</h4>
+            <p class="lead">@item.Crew</p>
+            <p class="lead">@item.Rank</p>
+
+        </div>
+    </div>
+    
+}
+</div>

@@ -1,0 +1,57 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #C6011F;
+    color: #f8f8ff;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+
+#carouselContainer {
+    background-color: #fff8e7;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #F7F7F7;
+    bottom: 0;
+    width: 100%;
+}
+
+#companylogo {
+    text-align: left;
+}
+
+#titleforpage {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h2.notformobile {
+    display: none;
+}
+
+h3.notformobile {
+    display: none;
+}
+
+h4.notformobile {
+    display: none;
+}
+#excludemobile {
+    
+    display:none;
+}

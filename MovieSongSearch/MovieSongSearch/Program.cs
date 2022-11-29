@@ -1,4 +1,7 @@
+using MovieSongSearch.Pages;
+
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 builder.Services.AddRazorPages();
@@ -21,5 +24,16 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+app.MapGet("/api/v1", async () =>
+{
+    MovieModel i= new MovieModel();
+    string response = "";
+    response = await i.apiCallAsync();
+    return response;
+
+})
+.WithName("api");
+
 
 app.Run();

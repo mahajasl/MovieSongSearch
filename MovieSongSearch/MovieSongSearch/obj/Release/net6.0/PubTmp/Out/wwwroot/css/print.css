@@ -1,0 +1,33 @@
+﻿body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+
+#topnav {
+    display:none;
+}
+
+#footerformat{
+    display:none;
+}
+form {
+    display:none;
+}
+
+#carouselContainer{
+    display:none;
+}
+
+#myCarousel{
+    display:none;
+}
+
+.itemactive {
+    display: none;
+}
+
+.item{
+    display: none;
+}

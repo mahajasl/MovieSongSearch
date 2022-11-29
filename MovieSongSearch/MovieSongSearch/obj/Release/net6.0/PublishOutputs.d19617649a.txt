@@ -1,0 +1,9 @@
+C:\Users\psneh\source\repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\obj\Release\net6.0\PubTmp\Out\MovieSongSearch.exe
+C:\Users\psneh\source\repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\psneh\source\repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\psneh\source\repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\obj\Release\net6.0\PubTmp\Out\MovieSongSearch.dll
+C:\Users\psneh\source\repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\obj\Release\net6.0\PubTmp\Out\MovieSongSearch.deps.json
+C:\Users\psneh\source\repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\obj\Release\net6.0\PubTmp\Out\MovieSongSearch.runtimeconfig.json
+C:\Users\psneh\source\repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\obj\Release\net6.0\PubTmp\Out\MovieSongSearch.pdb
+C:\Users\psneh\source\repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\psneh\source\repos\MovieSongSearch\MovieSongSearch\MovieSongSearch\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
