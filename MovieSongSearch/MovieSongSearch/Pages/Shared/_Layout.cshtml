@@ -17,6 +17,9 @@
     <header>
         <nav id="topnav"class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
+                <div>
+                    <img class="logo" src="~/CompanyLogo.PNG" alt=" Black and white movie clapper with a quarter note floating in the bottom section of the clapper" />
+                </div>
                 <a class="navbar-brand" asp-area="" asp-page="/Index">MovieSongSearch</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -54,3 +57,10 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+<style>
+    .logo {
+        height: 50px;
+        width: 50px;
+        padding-right: 10px;
+    }
+</style>

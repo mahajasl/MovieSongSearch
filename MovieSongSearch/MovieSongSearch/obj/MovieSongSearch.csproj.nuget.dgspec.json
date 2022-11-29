@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj": {}
+    "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj": {
+    "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
+        "projectUniqueName": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
         "projectName": "MovieSongSearch",
-        "projectPath": "C:\\Users\\user\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\obj\\",
+        "projectPath": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
+        "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krish\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,6 +47,10 @@
             "Newtonsoft.Json.Bson": {
               "target": "Package",
               "version": "[1.0.2, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.2.2, )"
             }
           },
           "imports": [
@@ -68,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
