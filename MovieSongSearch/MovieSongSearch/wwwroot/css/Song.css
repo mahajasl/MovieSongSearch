@@ -17,8 +17,8 @@ footer {
 }
 
 .form-control {
-    text-align: center;
-    align-items: center;
+    /*text-align: center;*/
+   /* align-items: center;*/
     margin: 10px;
     padding: 10px;
 }
@@ -31,3 +31,15 @@ form {
     margin: 0 auto;
     padding-left: 10rem;
 }
+
+#results {
+    border: 1.5px solid white;
+    border-radius:10px;
+    padding: 12px;
+    font-size:20px;
+}
+
+#searchbtn {
+    background-color: #0e7c61;
+}
+
