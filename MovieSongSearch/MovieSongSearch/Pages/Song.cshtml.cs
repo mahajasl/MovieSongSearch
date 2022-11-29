@@ -30,9 +30,9 @@ namespace MovieSongSearch.Pages
                 {
                     Task<string> readString = response.Content.ReadAsStringAsync();
 
-                    string jsonString = readString.Result;
+                    string getMusicDetails = readString.Result;
 
-                    songs = Song.FromJson(jsonString);
+                    songs = Song.FromJson(getMusicDetails);
                 }
 
             }
