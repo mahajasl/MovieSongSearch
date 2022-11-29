@@ -1,6 +1,6 @@
 ﻿@page
-@model MovieSongSearch.Pages.MovieApiModel
-@using MovieExternalApi;
+@model MovieSongSearch.Pages.PopularMovieApiModel
+@using Popularity
 @{
     int counter = 0;
 }
@@ -19,8 +19,6 @@
             border-collapse: collapse;
         }
 
-
-
         th, td {
             padding-top: 10px;
             padding-bottom: 20px;
@@ -31,38 +29,34 @@
 </head>
 
 
-    <div class="text-center">
-    
-    <h3>Have a look at the maximum IMDB rated movies!</h3>
-        <table>
-            <tr>
-            <th>Rank</th>
-            <th>Imdb Rating</th>
-                <th>Movie</th>
-                <th>Crew</th>
-                <th>Year</th>
-                
-                
-            </tr>
-       
-            @foreach (Item item in Model.moviesApi.Items)
+<div class="text-center">
+    <h3>Popular movies as per 'The Movie DB'</h3>
+    <table>
+        <tr>
+            <th>Movie</th>
+            <th>Overview</th>
+            <th>Popularity</th>
+            <th>ReleaseDate</th>
+
+        </tr>
+        @if (Model.popMovie != null)
+        {
+            @foreach (Result item in Model.popMovie.Results)
             {
                 <tr>
-                    <td>@item.Rank</td>
-                    <td>@item.ImDbRating</td>
-
                     <td>@item.Title</td>
-                    <td>@item.Crew</td>
-                    <td>@item.Year</td>
+                    <td>@item.Overview</td>
+                    <td>@item.Popularity</td>
+                    <td>@item.ReleaseDate</td>
 
                 </tr>
                 counter++;
-                if (counter == 20)
+                if (counter == 15)
                 {
                     break;
                 }
-            
+            }
         }
-        </table>
-    </div>
+    </table>
+</div>
 

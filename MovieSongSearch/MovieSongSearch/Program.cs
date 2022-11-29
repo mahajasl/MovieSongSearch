@@ -25,9 +25,9 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-app.MapGet("/api/v1", async () =>
+app.MapGet("/movies/popular", async () =>
 {
-    MovieModel i= new MovieModel();
+    PopularMovieApiModel i = new PopularMovieApiModel();
     string response = "";
     response = await i.apiCallAsync();
     return response;

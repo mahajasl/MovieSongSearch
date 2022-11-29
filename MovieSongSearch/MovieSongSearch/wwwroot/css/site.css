@@ -41,3 +41,23 @@ footer {
     font-size: 70px;
     font-weight: bold;
 }
+
+#formindex {
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+
+
+#fquote {
+    text-align: center;
+}
+
+
+
+#submitbtnindex {
+    background-color: #0e7c61;
+}
+
