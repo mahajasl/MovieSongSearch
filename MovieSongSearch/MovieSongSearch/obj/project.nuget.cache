@@ -1,12 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "YLH6K+C06HHb79mAHXBLl7elI0C8Hc5IB/zU9pwn0/8ar4yAy1jML17E66QP0ALqWdCa7PQBqmZCU0brsf+tDA==",
+<<<<<<< HEAD
+  "dgSpecHash": "hQ5xXeHvvx/iEYAOdi8OF/ELWR40gMbwmeAcgtrTwzUkNt8+MlmlvzncAZpEsMSKiUH2hczROVCjm1TyZgtZiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\bootstrap\\5.2.2\\bootstrap.5.2.2.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\bootstrap\\5.2.2\\bootstrap.5.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+=======
+  "dgSpecHash": "xt2HQebEj1o61EKdlJwIM3F8HEAQk7QA+1M8K26/3cjGVw6v4o61e3JNXBuoWYcRyF+Y5FqpncBztEFpWeMSAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\psneh\\Source\\Repos\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch\\MovieSongSearch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\psneh\\.nuget\\packages\\bootstrap\\5.2.2\\bootstrap.5.2.2.nupkg.sha512",
+    "C:\\Users\\psneh\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\psneh\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+>>>>>>> 4ac47a6ee1f3c84c99e13021ce765039444e08ee
   ],
   "logs": []
 }
